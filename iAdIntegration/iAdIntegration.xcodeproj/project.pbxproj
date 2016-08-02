@@ -15,6 +15,7 @@
 		60383B261D507242006B52CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60383B241D507242006B52CB /* LaunchScreen.storyboard */; };
 		60383B311D507242006B52CB /* iAdIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60383B301D507242006B52CB /* iAdIntegrationTests.m */; };
 		60383B3C1D507242006B52CB /* iAdIntegrationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60383B3B1D507242006B52CB /* iAdIntegrationUITests.m */; };
+		60383B4A1D5072A3006B52CB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60383B491D5072A3006B52CB /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		60383B371D507242006B52CB /* iAdIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAdIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60383B3B1D507242006B52CB /* iAdIntegrationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAdIntegrationUITests.m; sourceTree = "<group>"; };
 		60383B3D1D507242006B52CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60383B491D5072A3006B52CB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60383B4A1D5072A3006B52CB /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		60383B0A1D507241006B52CB = {
 			isa = PBXGroup;
 			children = (
+				60383B491D5072A3006B52CB /* iAd.framework */,
 				60383B151D507241006B52CB /* iAdIntegration */,
 				60383B2F1D507242006B52CB /* iAdIntegrationTests */,
 				60383B3A1D507242006B52CB /* iAdIntegrationUITests */,
